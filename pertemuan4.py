@@ -21,3 +21,5 @@ try:
     print("Keliling:", pp.keliling(), "cm")
     print("Luas:", pp.luas(), "cm^2")
 
+except ValueError:
+        print("Input harus berupa angka.")
